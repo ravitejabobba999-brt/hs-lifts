@@ -504,8 +504,9 @@ ol {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	min-height: 70px;
+	/* min-height: 70px; */
 	padding: 10px 20px;
+	height: 70px;
 }
 
 .logo-area {
@@ -2284,13 +2285,13 @@ ol {
 		width: 45px;
 		height: 45px;
 		padding: 10px;
-		background: rgba(255, 255, 255, 0.1);
+		background: transparent;
 		border-radius: 5px;
 		transition: background 0.3s ease;
 	}
 	
 	.nav-switch:hover {
-		background: rgba(186, 255, 0, 0.2);
+		background: transparent;
 	}
 	
 	.nav-switch i {
