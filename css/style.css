@@ -593,7 +593,7 @@ ol {
 
 .nav-menu ul li a:hover:after,
 .nav-menu ul li.active>a:after {
-	width: 60%; /* expands the underline on hover/active */
+	width: 80%; /* expands the underline on hover/active */
 }
 
 /*---------------------------------------*/
